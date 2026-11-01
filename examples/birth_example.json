@@ -1,0 +1,15 @@
+{
+  "name": "示例用户",
+  "note": "虚构命主, 仅用于演示; 请换成你自己的出生信息, 并且不要把真实出生信息提交进仓库。",
+  "calendar": "solar",
+  "gender": "male",
+  "birth_date": "1990-06-14",
+  "birth_time": "16:30",
+  "time_precision": "minute",
+  "timezone": "Asia/Shanghai",
+  "place_label": "北京(示例)",
+  "longitude": 116.4074,
+  "latitude": 39.9042,
+  "coordinate_precision": "city",
+  "day_boundary": "midnight"
+}

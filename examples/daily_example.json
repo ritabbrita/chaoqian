@@ -1,0 +1,2744 @@
+{
+  "subject": "示例用户",
+  "llm": "none",
+  "daily": {
+    "date": "2030-05-20",
+    "almanac": {
+      "solar": "2030-05-20",
+      "week": "星期一",
+      "lunar": "二〇三〇年四月十九",
+      "gz_year": "庚戌",
+      "gz_month": "辛巳",
+      "gz_month_day": "辛巳",
+      "gz_day": "乙卯",
+      "day_gan": "乙",
+      "day_zhi": "卯",
+      "shengxiao": "狗",
+      "jieqi_prev": "立夏",
+      "jieqi_prev_date": "2030-05-05",
+      "jieqi_next": "小满",
+      "jieqi_next_date": "2030-05-21",
+      "zhixing": "开",
+      "xiu": "张月鹿",
+      "xiu_luck": "吉",
+      "chong": "(己酉)鸡",
+      "sha": "西",
+      "pengzu": [
+        "乙不栽植千株不长",
+        "卯不穿井水泉不香"
+      ],
+      "nayin": "大溪水",
+      "yi": [
+        "嫁娶",
+        "祭祀",
+        "祈福",
+        "求嗣",
+        "斋醮",
+        "订盟"
+      ],
+      "ji": [
+        "开市",
+        "入宅",
+        "探病",
+        "出火",
+        "盖屋"
+      ],
+      "xishen": "西北",
+      "caishen": "东北",
+      "lucky_hour": {
+        "zhi": "午",
+        "range": "11:00-13:00"
+      },
+      "timeline": [
+        {
+          "zhi": "子",
+          "start": 23,
+          "range": "23-01",
+          "luck": "凶"
+        },
+        {
+          "zhi": "丑",
+          "start": 1,
+          "range": "01-03",
+          "luck": "凶"
+        },
+        {
+          "zhi": "寅",
+          "start": 3,
+          "range": "03-05",
+          "luck": "吉"
+        },
+        {
+          "zhi": "卯",
+          "start": 5,
+          "range": "05-07",
+          "luck": "吉"
+        },
+        {
+          "zhi": "辰",
+          "start": 7,
+          "range": "07-09",
+          "luck": "凶"
+        },
+        {
+          "zhi": "巳",
+          "start": 9,
+          "range": "09-11",
+          "luck": "凶"
+        },
+        {
+          "zhi": "午",
+          "start": 11,
+          "range": "11-13",
+          "luck": "吉"
+        },
+        {
+          "zhi": "未",
+          "start": 13,
+          "range": "13-15",
+          "luck": "吉"
+        },
+        {
+          "zhi": "申",
+          "start": 15,
+          "range": "15-17",
+          "luck": "凶"
+        },
+        {
+          "zhi": "酉",
+          "start": 17,
+          "range": "17-19",
+          "luck": "吉"
+        },
+        {
+          "zhi": "戌",
+          "start": 19,
+          "range": "19-21",
+          "luck": "凶"
+        },
+        {
+          "zhi": "亥",
+          "start": 21,
+          "range": "21-23",
+          "luck": "凶"
+        }
+      ],
+      "lunar_month_num": 4,
+      "lunar_day_num": 19,
+      "year_zhi": "戌",
+      "time_zhi": "辰"
+    },
+    "cast": {
+      "ts_zhi": "辰",
+      "formula": "年11+月4+日19=34 → 上兑 ; +时5=39 → 下艮 ; 动第3爻",
+      "ben": "泽山咸",
+      "ben_shang": "兑",
+      "ben_xia": "艮",
+      "dong": 3,
+      "lines": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bian": "泽地萃",
+      "hu": "天风姤",
+      "guaci": "咸：亨。利貞。取女吉。",
+      "yaoci": "九三：咸其股，執其隨，往吝。"
+    },
+    "bazi": {
+      "score": -0.38,
+      "tide": 5,
+      "tide_label": "平潮",
+      "notes": [
+        "今日乙为正财，卯藏乙正财",
+        "卯与命中戌六合，协作较顺"
+      ],
+      "day_master": "庚金",
+      "day_ten_god": "正财",
+      "hidden_ten_gods": [
+        "乙正财"
+      ],
+      "dayun": "丙戌大运",
+      "year_note": "流年庚戌含喜用土、金",
+      "components": [
+        {
+          "rule": "日干喜忌",
+          "delta": -0.98,
+          "detail": "乙木·正财"
+        },
+        {
+          "rule": "日支藏干喜忌",
+          "delta": -0.65,
+          "detail": "卯藏乙正财"
+        },
+        {
+          "rule": "天干合",
+          "delta": 0.7,
+          "detail": "乙与命局庚相合"
+        },
+        {
+          "rule": "地支破",
+          "delta": -0.3,
+          "detail": "卯破午",
+          "scope": "general"
+        },
+        {
+          "rule": "地支合",
+          "delta": 1.0,
+          "detail": "卯合戌",
+          "scope": "spouse_palace"
+        },
+        {
+          "rule": "命局旬空触发",
+          "delta": -0.6,
+          "detail": "卯落命局旬空"
+        },
+        {
+          "rule": "流年喜忌",
+          "delta": 0.56,
+          "detail": "庚戌流年"
+        },
+        {
+          "rule": "流月喜忌",
+          "delta": -0.03,
+          "detail": "辛巳流月"
+        },
+        {
+          "rule": "大运喜忌",
+          "delta": -0.09,
+          "detail": "丙戌大运"
+        }
+      ],
+      "rule_version": "chaoqian-natal-0.1",
+      "profile_version": "chaoqian-bazi-profile-0.1",
+      "profile_verified": true,
+      "day_master_strength": "偏弱",
+      "climate_note": "燥热月令，调候先取水"
+    },
+    "weather": null,
+    "qimen": {
+      "ju": "阳遁1局",
+      "yuan": "中元",
+      "jieqi": "立夏",
+      "method": "拆补法·转盘",
+      "zhifu": "天芮",
+      "zhishi": "死门",
+      "hours": [
+        {
+          "start": 7,
+          "zhi": "辰",
+          "range": "07-09",
+          "rating": 0,
+          "score": -1.5,
+          "factors": [
+            "死门",
+            "九天助",
+            "驿马",
+            "门迫",
+            "门反吟·多反覆"
+          ],
+          "zhishi": "死门",
+          "rating_base": 0,
+          "score_base": -1.5,
+          "formations": [
+            {
+              "id": "yima",
+              "name": "驿马",
+              "kind": "中",
+              "level": "mixed",
+              "palace": 8,
+              "role": "值使",
+              "hint": "主动、变动、迁移、传递, 应事快"
+            },
+            {
+              "id": "menpo",
+              "name": "门迫",
+              "kind": "凶",
+              "level": "inauspicious",
+              "palace": 3,
+              "role": "值符",
+              "hint": "门被宫夺力减半: 吉门吉不就, 凶门事更凶"
+            },
+            {
+              "id": "fanyin_door",
+              "name": "门反吟",
+              "kind": "凶",
+              "level": "inauspicious_great",
+              "palace": null,
+              "role": "全局",
+              "hint": "进退两难莫轻动, 定则必改"
+            }
+          ],
+          "wubuyushi": false,
+          "kaimen_dir": "东南",
+          "shengmen_dir": "西南"
+        },
+        {
+          "start": 9,
+          "zhi": "巳",
+          "range": "09-11",
+          "rating": 0,
+          "score": -9,
+          "factors": [
+            "死门",
+            "螣蛇扰",
+            "五不遇时·不宜用事"
+          ],
+          "zhishi": "死门",
+          "rating_base": 0,
+          "score_base": -9,
+          "formations": [
+            {
+              "id": "wubuyushi",
+              "name": "五不遇时",
+              "kind": "凶",
+              "level": "inauspicious_great",
+              "palace": null,
+              "role": "全局",
+              "hint": "时干克日干、主客不合: 百事皆凶, 纵得奇门亦不宜用"
+            }
+          ],
+          "wubuyushi": true,
+          "kaimen_dir": "正西",
+          "shengmen_dir": "正北"
+        },
+        {
+          "start": 11,
+          "zhi": "午",
+          "range": "11-13",
+          "rating": 0,
+          "score": -3.5,
+          "factors": [
+            "死门",
+            "天蓬缓",
+            "六合助",
+            "门迫",
+            "六仪击刑·力减事阻",
+            "神假",
+            "驿马",
+            "星伏吟·宜静守",
+            "干伏吟·宜静守"
+          ],
+          "zhishi": "死门",
+          "rating_base": 0,
+          "score_base": -3.5,
+          "formations": [
+            {
+              "id": "menpo",
+              "name": "门迫",
+              "kind": "凶",
+              "level": "inauspicious",
+              "palace": 1,
+              "role": "值使",
+              "hint": "门被宫夺力减半: 吉门吉不就, 凶门事更凶"
+            },
+            {
+              "id": "liuyi_jixing",
+              "name": "六仪击刑",
+              "kind": "凶",
+              "level": "inauspicious",
+              "palace": 2,
+              "role": "值符",
+              "hint": "力量减半、诸事受阻, 求谋徒劳"
+            },
+            {
+              "id": "wujia_shenjia",
+              "name": "神假",
+              "kind": "中",
+              "level": "mixed",
+              "palace": 2,
+              "role": "值符",
+              "hint": "利催讨追索、了断旧事"
+            },
+            {
+              "id": "menpo",
+              "name": "门迫",
+              "kind": "凶",
+              "level": "inauspicious",
+              "palace": 2,
+              "role": "值符",
+              "hint": "门被宫夺力减半: 吉门吉不就, 凶门事更凶"
+            },
+            {
+              "id": "yima",
+              "name": "驿马",
+              "kind": "中",
+              "level": "mixed",
+              "palace": 2,
+              "role": "值符",
+              "hint": "主动、变动、迁移、传递, 应事快"
+            },
+            {
+              "id": "fuyin_star",
+              "name": "星伏吟",
+              "kind": "凶",
+              "level": "inauspicious_great",
+              "palace": null,
+              "role": "全局",
+              "hint": "伏吟主迟滞: 利主不利客、利静不利动"
+            },
+            {
+              "id": "fuyin_gan",
+              "name": "干伏吟",
+              "kind": "凶",
+              "level": "inauspicious_great",
+              "palace": null,
+              "role": "全局",
+              "hint": "奇仪伏而不发, 宜守成不宜开新局"
+            }
+          ],
+          "wubuyushi": false,
+          "kaimen_dir": "正东",
+          "shengmen_dir": "正南"
+        },
+        {
+          "start": 13,
+          "zhi": "未",
+          "range": "13-15",
+          "rating": 1,
+          "score": -0.5,
+          "factors": [
+            "死门",
+            "天辅助",
+            "九地助",
+            "门伏吟·宜静守"
+          ],
+          "zhishi": "死门",
+          "rating_base": 1,
+          "score_base": -0.5,
+          "formations": [
+            {
+              "id": "fuyin_door",
+              "name": "门伏吟",
+              "kind": "凶",
+              "level": "inauspicious_great",
+              "palace": null,
+              "role": "全局",
+              "hint": "门不动则事不动, 万事停滞莫强动"
+            }
+          ],
+          "wubuyushi": false,
+          "kaimen_dir": "西北",
+          "shengmen_dir": "东北"
+        },
+        {
+          "start": 15,
+          "zhi": "申",
+          "range": "15-17",
+          "rating": 0,
+          "score": -2,
+          "factors": [
+            "伤门",
+            "星伏吟·宜静守",
+            "门伏吟·宜静守",
+            "干伏吟·宜静守"
+          ],
+          "zhishi": "伤门",
+          "rating_base": 0,
+          "score_base": -2,
+          "formations": [
+            {
+              "id": "fuyin_star",
+              "name": "星伏吟",
+              "kind": "凶",
+              "level": "inauspicious_great",
+              "palace": null,
+              "role": "全局",
+              "hint": "伏吟主迟滞: 利主不利客、利静不利动"
+            },
+            {
+              "id": "fuyin_door",
+              "name": "门伏吟",
+              "kind": "凶",
+              "level": "inauspicious_great",
+              "palace": null,
+              "role": "全局",
+              "hint": "门不动则事不动, 万事停滞莫强动"
+            },
+            {
+              "id": "fuyin_gan",
+              "name": "干伏吟",
+              "kind": "凶",
+              "level": "inauspicious_great",
+              "palace": null,
+              "role": "全局",
+              "hint": "奇仪伏而不发, 宜守成不宜开新局"
+            }
+          ],
+          "wubuyushi": false,
+          "kaimen_dir": "西北",
+          "shengmen_dir": "东北"
+        },
+        {
+          "start": 17,
+          "zhi": "酉",
+          "range": "17-19",
+          "rating": 1,
+          "score": -0.5,
+          "factors": [
+            "伤门",
+            "天任助",
+            "九天助"
+          ],
+          "zhishi": "伤门",
+          "rating_base": 1,
+          "score_base": -0.5,
+          "formations": [],
+          "wubuyushi": false,
+          "kaimen_dir": "正北",
+          "shengmen_dir": "正东"
+        },
+        {
+          "start": 19,
+          "zhi": "戌",
+          "range": "19-21",
+          "rating": 0,
+          "score": -4.75,
+          "factors": [
+            "伤门",
+            "白虎扰",
+            "门迫",
+            "驿马",
+            "太白入荧",
+            "六仪击刑·力减事阻",
+            "飞悖(值符加丙)"
+          ],
+          "zhishi": "伤门",
+          "rating_base": 0,
+          "score_base": -3.5,
+          "formations": [
+            {
+              "id": "menpo",
+              "name": "门迫",
+              "kind": "凶",
+              "level": "inauspicious",
+              "palace": 2,
+              "role": "值使",
+              "hint": "门被宫夺力减半: 吉门吉不就, 凶门事更凶"
+            },
+            {
+              "id": "yima",
+              "name": "驿马",
+              "kind": "中",
+              "level": "mixed",
+              "palace": 2,
+              "role": "值使",
+              "hint": "主动、变动、迁移、传递, 应事快"
+            },
+            {
+              "id": "ganying_taibai_ruying",
+              "name": "太白入荧",
+              "kind": "凶",
+              "level": "inauspicious_great",
+              "palace": 8,
+              "role": "值符",
+              "hint": "占贼必为; 为客进利、为主破财"
+            },
+            {
+              "id": "liuyi_jixing",
+              "name": "六仪击刑",
+              "kind": "凶",
+              "level": "inauspicious",
+              "palace": 8,
+              "role": "值符",
+              "hint": "力量减半、诸事受阻, 求谋徒劳"
+            },
+            {
+              "id": "beige_fei_zhifu",
+              "name": "飞悖(值符加丙)",
+              "kind": "凶",
+              "level": "inauspicious",
+              "palace": 8,
+              "role": "值符",
+              "hint": "号令不行、事出反覆"
+            }
+          ],
+          "wubuyushi": false,
+          "kaimen_dir": "正东",
+          "shengmen_dir": "正南"
+        },
+        {
+          "start": 21,
+          "zhi": "亥",
+          "range": "21-23",
+          "rating": 0,
+          "score": -1.5,
+          "factors": [
+            "伤门",
+            "天辅助",
+            "螣蛇扰",
+            "门制",
+            "星反吟·多反覆",
+            "干反吟·多反覆"
+          ],
+          "zhishi": "伤门",
+          "rating_base": 0,
+          "score_base": -1.5,
+          "formations": [
+            {
+              "id": "menzhi",
+              "name": "门制",
+              "kind": "中",
+              "level": "mixed",
+              "palace": 6,
+              "role": "值使",
+              "hint": "吉门受制事不吉, 凶门受制凶不起"
+            },
+            {
+              "id": "fanyin_star",
+              "name": "星反吟",
+              "kind": "凶",
+              "level": "inauspicious_great",
+              "palace": null,
+              "role": "全局",
+              "hint": "反吟主反覆迅猛: 事颠倒、去而复返"
+            },
+            {
+              "id": "fanyin_gan",
+              "name": "干反吟",
+              "kind": "凶",
+              "level": "inauspicious_great",
+              "palace": null,
+              "role": "全局",
+              "hint": "奇仪相冲, 谋事反覆、成而复败"
+            }
+          ],
+          "wubuyushi": false,
+          "kaimen_dir": "正南",
+          "shengmen_dir": "正西"
+        }
+      ],
+      "style": "宜守不宜攻",
+      "best_ranges": [],
+      "slow_ranges": [
+        "07-09",
+        "09-11",
+        "11-13",
+        "15-17",
+        "19-21",
+        "21-23"
+      ],
+      "dirs": {
+        "开门": "西北",
+        "生门": "东北"
+      },
+      "formations_today": [
+        {
+          "range": "07-09",
+          "name": "门迫",
+          "kind": "凶",
+          "hint": "门被宫夺力减半: 吉门吉不就, 凶门事更凶"
+        },
+        {
+          "range": "07-09",
+          "name": "门反吟",
+          "kind": "凶",
+          "hint": "进退两难莫轻动, 定则必改"
+        },
+        {
+          "range": "09-11",
+          "name": "五不遇时",
+          "kind": "凶",
+          "hint": "时干克日干、主客不合: 百事皆凶, 纵得奇门亦不宜用"
+        },
+        {
+          "range": "11-13",
+          "name": "门迫",
+          "kind": "凶",
+          "hint": "门被宫夺力减半: 吉门吉不就, 凶门事更凶"
+        },
+        {
+          "range": "11-13",
+          "name": "六仪击刑",
+          "kind": "凶",
+          "hint": "力量减半、诸事受阻, 求谋徒劳"
+        },
+        {
+          "range": "11-13",
+          "name": "星伏吟",
+          "kind": "凶",
+          "hint": "伏吟主迟滞: 利主不利客、利静不利动"
+        },
+        {
+          "range": "11-13",
+          "name": "干伏吟",
+          "kind": "凶",
+          "hint": "奇仪伏而不发, 宜守成不宜开新局"
+        },
+        {
+          "range": "13-15",
+          "name": "门伏吟",
+          "kind": "凶",
+          "hint": "门不动则事不动, 万事停滞莫强动"
+        },
+        {
+          "range": "15-17",
+          "name": "星伏吟",
+          "kind": "凶",
+          "hint": "伏吟主迟滞: 利主不利客、利静不利动"
+        },
+        {
+          "range": "15-17",
+          "name": "门伏吟",
+          "kind": "凶",
+          "hint": "门不动则事不动, 万事停滞莫强动"
+        },
+        {
+          "range": "15-17",
+          "name": "干伏吟",
+          "kind": "凶",
+          "hint": "奇仪伏而不发, 宜守成不宜开新局"
+        },
+        {
+          "range": "19-21",
+          "name": "门迫",
+          "kind": "凶",
+          "hint": "门被宫夺力减半: 吉门吉不就, 凶门事更凶"
+        },
+        {
+          "range": "19-21",
+          "name": "太白入荧",
+          "kind": "凶",
+          "hint": "占贼必为; 为客进利、为主破财"
+        },
+        {
+          "range": "19-21",
+          "name": "六仪击刑",
+          "kind": "凶",
+          "hint": "力量减半、诸事受阻, 求谋徒劳"
+        },
+        {
+          "range": "19-21",
+          "name": "飞悖(值符加丙)",
+          "kind": "凶",
+          "hint": "号令不行、事出反覆"
+        },
+        {
+          "range": "21-23",
+          "name": "星反吟",
+          "kind": "凶",
+          "hint": "反吟主反覆迅猛: 事颠倒、去而复返"
+        },
+        {
+          "range": "21-23",
+          "name": "干反吟",
+          "kind": "凶",
+          "hint": "奇仪相冲, 谋事反覆、成而复败"
+        },
+        {
+          "range": "07-09",
+          "name": "驿马",
+          "kind": "中",
+          "hint": "主动、变动、迁移、传递, 应事快"
+        },
+        {
+          "range": "11-13",
+          "name": "神假",
+          "kind": "中",
+          "hint": "利催讨追索、了断旧事"
+        },
+        {
+          "range": "11-13",
+          "name": "驿马",
+          "kind": "中",
+          "hint": "主动、变动、迁移、传递, 应事快"
+        },
+        {
+          "range": "19-21",
+          "name": "驿马",
+          "kind": "中",
+          "hint": "主动、变动、迁移、传递, 应事快"
+        },
+        {
+          "range": "21-23",
+          "name": "门制",
+          "kind": "中",
+          "hint": "吉门受制事不吉, 凶门受制凶不起"
+        }
+      ],
+      "dir_range": "13-15",
+      "dir_range_is_best": false,
+      "dir_note": "今日无突出顺时, 相对可用 13-15",
+      "rule_version": "chaoqian-qimen-0.1"
+    },
+    "domain_scores": {
+      "work": 41,
+      "money": 40,
+      "love": 46,
+      "parent": 49,
+      "body": 48
+    },
+    "domain_signals": {
+      "work": {
+        "score": 41,
+        "level": "low",
+        "level_label": "偏耗",
+        "agreement": "aligned",
+        "agreement_label": "领域线索与时段同向",
+        "timing": "low",
+        "band": {
+          "low": 46,
+          "high": 58
+        },
+        "reference": "chaoqian-domain-rule-0.1",
+        "disclaimer": "传统规则线索，未经科学验证，也不是事件发生概率。"
+      },
+      "money": {
+        "score": 40,
+        "level": "low",
+        "level_label": "偏耗",
+        "agreement": "aligned",
+        "agreement_label": "领域线索与时段同向",
+        "timing": "low",
+        "band": {
+          "low": 46,
+          "high": 58
+        },
+        "reference": "chaoqian-domain-rule-0.1",
+        "disclaimer": "传统规则线索，未经科学验证，也不是事件发生概率。"
+      },
+      "love": {
+        "score": 46,
+        "level": "low",
+        "level_label": "偏耗",
+        "agreement": "aligned",
+        "agreement_label": "领域线索与时段同向",
+        "timing": "low",
+        "band": {
+          "low": 46,
+          "high": 58
+        },
+        "reference": "chaoqian-domain-rule-0.1",
+        "disclaimer": "传统规则线索，未经科学验证，也不是事件发生概率。"
+      },
+      "parent": {
+        "score": 49,
+        "level": "neutral",
+        "level_label": "中性",
+        "agreement": "neutral",
+        "agreement_label": "传统线索中性",
+        "timing": "low",
+        "band": {
+          "low": 46,
+          "high": 58
+        },
+        "reference": "chaoqian-domain-rule-0.1",
+        "disclaimer": "传统规则线索，未经科学验证，也不是事件发生概率。"
+      },
+      "body": {
+        "score": 48,
+        "level": "neutral",
+        "level_label": "中性",
+        "agreement": "neutral",
+        "agreement_label": "传统线索中性",
+        "timing": "low",
+        "band": {
+          "low": 46,
+          "high": 58
+        },
+        "reference": "chaoqian-domain-rule-0.1",
+        "disclaimer": "传统规则线索，未经科学验证，也不是事件发生概率。"
+      }
+    },
+    "strategy": {
+      "state": "平衡",
+      "note": "整体与时机没有明显同向信号；按日常节奏，小步验证。",
+      "baseline": 45,
+      "timing_best": 0,
+      "timing_slow": 6,
+      "yingqi_today": []
+    },
+    "color_guide": {
+      "primary": {
+        "name": "香槟金",
+        "hex": "#C7AD72",
+        "element": "金",
+        "role": "主色"
+      },
+      "accent": {
+        "name": "砂岩色",
+        "hex": "#BE9F78",
+        "element": "土",
+        "role": "点缀"
+      },
+      "reason": "命盘较宜土、金；今日木偏显，主色取金，土作点缀。",
+      "method": "命盘连续五行权重＋当日干支藏干；有利元素优先，当日已显元素略降权。",
+      "disclaimer": "传统五行穿搭提示，只作配色与行动提醒，不代表能改变事件结果。"
+    },
+    "evidence": {
+      "supports": [
+        {
+          "rule_id": "bazi-day",
+          "label": "八字·地支合",
+          "detail": "卯合戌",
+          "layer": "traditional",
+          "delta": 1.0
+        },
+        {
+          "rule_id": "bazi-day",
+          "label": "八字·天干合",
+          "detail": "乙与命局庚相合",
+          "layer": "traditional",
+          "delta": 0.7
+        },
+        {
+          "rule_id": "bazi-day",
+          "label": "八字·流年喜忌",
+          "detail": "庚戌流年",
+          "layer": "traditional",
+          "delta": 0.56
+        }
+      ],
+      "limits": [
+        {
+          "rule_id": "bazi-day",
+          "label": "八字·日干喜忌",
+          "detail": "乙木·正财",
+          "layer": "traditional",
+          "delta": -0.98
+        },
+        {
+          "rule_id": "bazi-day",
+          "label": "八字·日支藏干喜忌",
+          "detail": "卯藏乙正财",
+          "layer": "traditional",
+          "delta": -0.65
+        }
+      ],
+      "reality": [],
+      "rulebook": [
+        {
+          "rule_id": "bazi-day",
+          "label": "八字日运",
+          "basis": "传统源流：《渊海子平》《三命通会》《滴天髓》《子平真诠》；当前权重为本项目自定义，未经实证验证"
+        },
+        {
+          "rule_id": "qimen-hour",
+          "label": "奇门时机",
+          "basis": "传统源流：《烟波钓叟歌》《遁甲演义》；当前门星神宫评分为本项目自定义，未经实证验证"
+        },
+        {
+          "rule_id": "qimen-geju",
+          "label": "奇门格局",
+          "basis": "传统源流：《烟波钓叟歌》《奇门遁甲秘笈大全》十干克应/三奇/九遁/三诈/伏吟反吟；格局对时段分的修正系数为本项目自定义"
+        },
+        {
+          "rule_id": "weather-open-meteo",
+          "label": "现实天气",
+          "basis": "Open-Meteo 客观背景；是否具有预测价值须由数据检验"
+        }
+      ],
+      "rule_version": "chaoqian-daily-0.1",
+      "disclaimer": "传统书籍只能说明文化源流，不能代替预测验证；现实信息与传统线索分层记录。"
+    },
+    "regimen": {
+      "name": "立夏",
+      "next_name": "小满",
+      "next_date": "2030-05-21",
+      "food_yes": [
+        "鸭蛋",
+        "莲子",
+        "时令瓜豆"
+      ],
+      "food_no": [
+        "冰饮别贪早"
+      ],
+      "living": "开始安排午睡,哪怕闭眼一刻钟",
+      "note": "夏气通心,养心从立夏起"
+    },
+    "watch_days": [
+      {
+        "date": "2030-05-21",
+        "gz": "丙辰",
+        "tags": [
+          "冲夫妻宫",
+          "忌神旺"
+        ],
+        "level": "重",
+        "tip": "跟伴侣容易呛, 分歧先搁一夜再谈"
+      },
+      {
+        "date": "2030-05-26",
+        "gz": "辛酉",
+        "tags": [
+          "劫财透干"
+        ],
+        "level": "常",
+        "tip": "钱包看紧点——大额支出、借出、签约都缓一天"
+      },
+      {
+        "date": "2030-05-28",
+        "gz": "癸亥",
+        "tags": [
+          "月破"
+        ],
+        "level": "常",
+        "tip": "不宜开新头, 收尾和整理最合适"
+      },
+      {
+        "date": "2030-05-29",
+        "gz": "甲子",
+        "tags": [
+          "冲本命",
+          "忌神旺"
+        ],
+        "level": "重",
+        "tip": "日子冲你, 办事留余量, 别把日程排满"
+      },
+      {
+        "date": "2030-05-31",
+        "gz": "丙寅",
+        "tags": [
+          "空亡",
+          "忌神旺"
+        ],
+        "level": "重",
+        "tip": "重要承诺别落在今天, 容易落空"
+      },
+      {
+        "date": "2030-06-01",
+        "gz": "丁卯",
+        "tags": [
+          "空亡",
+          "忌神旺"
+        ],
+        "level": "重",
+        "tip": "重要承诺别落在今天, 容易落空"
+      },
+      {
+        "date": "2030-06-02",
+        "gz": "戊辰",
+        "tags": [
+          "冲夫妻宫"
+        ],
+        "level": "常",
+        "tip": "跟伴侣容易呛, 分歧先搁一夜再谈"
+      },
+      {
+        "date": "2030-06-05",
+        "gz": "辛未",
+        "tags": [
+          "劫财透干"
+        ],
+        "level": "常",
+        "tip": "钱包看紧点——大额支出、借出、签约都缓一天"
+      },
+      {
+        "date": "2030-06-10",
+        "gz": "丙子",
+        "tags": [
+          "冲本命",
+          "月破",
+          "忌神旺"
+        ],
+        "level": "重",
+        "tip": "日子冲你, 办事留余量, 别把日程排满"
+      },
+      {
+        "date": "2030-06-14",
+        "gz": "庚辰",
+        "tags": [
+          "冲夫妻宫"
+        ],
+        "level": "常",
+        "tip": "跟伴侣容易呛, 分歧先搁一夜再谈"
+      },
+      {
+        "date": "2030-06-15",
+        "gz": "辛巳",
+        "tags": [
+          "劫财透干"
+        ],
+        "level": "常",
+        "tip": "钱包看紧点——大额支出、借出、签约都缓一天"
+      }
+    ],
+    "watch_today": {
+      "tags": [
+        "空亡",
+        "忌神旺"
+      ],
+      "tip": "重要承诺别落在今天, 容易落空",
+      "level": "重"
+    },
+    "lucky_days": [
+      {
+        "date": "2030-05-24",
+        "gz": "己未",
+        "tags": [
+          "贵人日"
+        ],
+        "level": "吉",
+        "tip": "求人办事、见重要的人, 今天开口最顺"
+      },
+      {
+        "date": "2030-05-25",
+        "gz": "庚申",
+        "tags": [
+          "禄神日"
+        ],
+        "level": "吉",
+        "tip": "主业正财的事今天办, 水到渠成"
+      },
+      {
+        "date": "2030-05-30",
+        "gz": "乙丑",
+        "tags": [
+          "财星日",
+          "贵人日"
+        ],
+        "level": "大吉",
+        "tip": "谈钱谈单收款, 能挪到今天就挪"
+      },
+      {
+        "date": "2030-06-06",
+        "gz": "壬申",
+        "tags": [
+          "禄神日"
+        ],
+        "level": "吉",
+        "tip": "主业正财的事今天办, 水到渠成"
+      },
+      {
+        "date": "2030-06-08",
+        "gz": "甲戌",
+        "tags": [
+          "财星日"
+        ],
+        "level": "吉",
+        "tip": "谈钱谈单收款, 能挪到今天就挪"
+      },
+      {
+        "date": "2030-06-09",
+        "gz": "乙亥",
+        "tags": [
+          "财星日",
+          "文昌日"
+        ],
+        "level": "大吉",
+        "tip": "谈钱谈单收款, 能挪到今天就挪"
+      },
+      {
+        "date": "2030-06-11",
+        "gz": "丁丑",
+        "tags": [
+          "贵人日"
+        ],
+        "level": "吉",
+        "tip": "求人办事、见重要的人, 今天开口最顺"
+      },
+      {
+        "date": "2030-06-17",
+        "gz": "癸未",
+        "tags": [
+          "贵人日"
+        ],
+        "level": "吉",
+        "tip": "求人办事、见重要的人, 今天开口最顺"
+      },
+      {
+        "date": "2030-06-18",
+        "gz": "甲申",
+        "tags": [
+          "财星日",
+          "禄神日"
+        ],
+        "level": "大吉",
+        "tip": "谈钱谈单收款, 能挪到今天就挪"
+      },
+      {
+        "date": "2030-06-19",
+        "gz": "乙酉",
+        "tags": [
+          "财星日"
+        ],
+        "level": "吉",
+        "tip": "谈钱谈单收款, 能挪到今天就挪"
+      }
+    ],
+    "lucky_today": null,
+    "text": {
+      "smile": "今天没有明确的传统顺时段。",
+      "think": "传统宜缓时段：07:00–09:00、09:00–11:00、11:00–13:00、15:00–17:00、19:00–21:00、21:00–23:00。",
+      "domains": {
+        "work": "传统工作线索偏耗；重要交付多核对一次。",
+        "money": "传统财务线索偏耗；金额和条款多核对。",
+        "love": "传统伴侣线索偏耗；先听完再谈分工。",
+        "parent": "传统亲子线索中性；照平常节奏陪伴。",
+        "body": "传统身心线索中性；这个节气时令瓜豆正当时。"
+      },
+      "lucky_item": "白色的杯子",
+      "push": "今天很稳, 按你的节奏来。",
+      "fallback": false,
+      "local_mode": true,
+      "yingqi_note": null,
+      "guard_stripped": [],
+      "copy_policy": "structured-fallback"
+    },
+    "rule_version": "chaoqian-daily-0.1",
+    "scientific_status": "traditional_reference_unvalidated"
+  },
+  "monthly": {
+    "month": "2030-05",
+    "ganzhi_month": "庚辰→辛巳",
+    "main_ganzhi": "辛巳",
+    "segments": [
+      {
+        "gz": "庚辰",
+        "start": "2030-05-01",
+        "end": "2030-05-04",
+        "days": 4,
+        "jie": null
+      },
+      {
+        "gz": "辛巳",
+        "start": "2030-05-05",
+        "end": "2030-05-31",
+        "days": 27,
+        "jie": "立夏"
+      }
+    ],
+    "switch_date": "2030-05-05",
+    "switch_jie": "立夏",
+    "title": "传统线索偏助",
+    "text": "本月流月：5/5 立夏交节换成辛巳月; 5/5之前还是庚辰月的尾巴(4天)。传统流月规则记录(按辛巳月)：月干辛透劫财、月支巳本气丙为七杀、月干金偏助、月支火偏耗、月支巳与命中申相合。建议口径：可以按现实计划稳步推进，但不把它当成结果保证。本月不强制生成财务、伴侣、亲子或身体结论；没有对应现实材料就不补写。",
+    "basis": {
+      "月份": "2030年5月",
+      "流月": "庚辰月(5/1–5/4, 4天) → 辛巳月(5/5–5/31, 27天,立夏交节起)",
+      "换月": "5/5 立夏交节换成辛巳月; 5/5之前还是庚辰月的尾巴(4天)",
+      "主段": "辛巳月(本月天数最多, 主基调按它写)",
+      "与命局": {
+        "庚辰月": [
+          "月干庚透比肩",
+          "月支辰本气戊为偏印",
+          "月干金偏助",
+          "月支土偏助",
+          "月支辰与命中戌相冲"
+        ],
+        "辛巳月": [
+          "月干辛透劫财",
+          "月支巳本气丙为七杀",
+          "月干金偏助",
+          "月支火偏耗",
+          "月支巳与命中申相合"
+        ]
+      },
+      "十神线索(只有这里列出的星才能写进对应领域; 没列的领域只按五行偏助/偏耗说, 不许提星名)": {
+        "伴侣/事业(官杀)": [
+          "七杀"
+        ],
+        "同伴/竞争(比劫)": [
+          "劫财"
+        ]
+      },
+      "本月留意日(防御性提示, 挑1-2个日期自然带一句)": [
+        "5/3 月破",
+        "5/5 冲本命",
+        "5/6 劫财透干",
+        "5/9 冲夫妻宫·忌神旺(重)",
+        "5/16 劫财透干·月破(重)",
+        "5/17 冲本命",
+        "5/19 空亡·忌神旺(重)",
+        "5/20 空亡·忌神旺(重)",
+        "5/21 冲夫妻宫·忌神旺(重)",
+        "5/26 劫财透干",
+        "5/28 月破",
+        "5/29 冲本命·忌神旺(重)"
+      ],
+      "本月吉日(可挑1-2个日期鼓励行动)": [
+        "5/1 禄神日",
+        "5/4 文昌日",
+        "5/10 财星日",
+        "5/12 贵人日",
+        "5/13 禄神日",
+        "5/18 贵人日",
+        "5/24 贵人日",
+        "5/25 禄神日",
+        "5/30 财星日·贵人日(大吉)"
+      ],
+      "大运": "丙戌大运",
+      "流年": "流年庚戌含喜用土、金",
+      "命局校准": "偏弱；燥热月令，调候先取水",
+      "生成时节气": "立夏→小满(2030-05-21)"
+    },
+    "fallback": false,
+    "local_mode": true,
+    "rule_version": "chaoqian-daily-0.1",
+    "monthly_version": "chaoqian-monthly-0.1",
+    "guard_stripped": [],
+    "scientific_status": "traditional_reference_unvalidated"
+  },
+  "cast": {
+    "type": "liuyao",
+    "question": "示例项目三十天内能完成吗",
+    "category": "事业",
+    "horizon": 30,
+    "ts": 1905469200,
+    "time": "09:00",
+    "liuyao": {
+      "throws": [
+        2,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "coins": [
+        2,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "coin_encoding": "heads-count",
+      "cast_context": {
+        "day_gz": "乙卯",
+        "month_zhi": "巳",
+        "day_xunkong": "子丑"
+      },
+      "lines": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "moving": [
+        2
+      ],
+      "ben": "天山遁",
+      "bian": "天风姤",
+      "palace": "乾",
+      "palace_elem": "金",
+      "shi": 2,
+      "ying": 5,
+      "yaos": [
+        {
+          "pos": 1,
+          "gan": "丙",
+          "zhi": "辰",
+          "wx": "土",
+          "liuqin": "父母",
+          "moving": false,
+          "yang": false,
+          "shi": false,
+          "ying": false,
+          "kong": false,
+          "bian": null,
+          "liushen": "青龙",
+          "strength_score": 0.0,
+          "factors": [
+            "月建生",
+            "日辰克"
+          ],
+          "action": {
+            "version": "chaoqian-line-action-0.1",
+            "status": "available",
+            "label": "当前有力",
+            "reasons": [
+              "月令相"
+            ],
+            "wait_for": [],
+            "void": "not_void",
+            "basis": "增删卜易·元神忌神衰旺章／旬空章；条件取舍见 docs/ALGORITHM.md"
+          }
+        },
+        {
+          "pos": 2,
+          "gan": "丙",
+          "zhi": "午",
+          "wx": "火",
+          "liuqin": "官鬼",
+          "moving": true,
+          "yang": false,
+          "shi": true,
+          "ying": false,
+          "kong": false,
+          "bian": {
+            "gan": "辛",
+            "zhi": "亥",
+            "wx": "水",
+            "liuqin": "子孙",
+            "relation": "回头克"
+          },
+          "back_delta": -2,
+          "liushen": "朱雀",
+          "strength_score": 1.5,
+          "factors": [
+            "临月建",
+            "日辰生",
+            "动爻",
+            "回头克"
+          ],
+          "action": {
+            "version": "chaoqian-line-action-0.1",
+            "status": "uncertain",
+            "label": "作用未定",
+            "reasons": [
+              "月令旺",
+              "得日辰生扶",
+              "动化回头克"
+            ],
+            "wait_for": [],
+            "void": "not_void",
+            "basis": "增删卜易·元神忌神衰旺章／旬空章；条件取舍见 docs/ALGORITHM.md"
+          },
+          "source": "ben",
+          "source_rank": 0
+        },
+        {
+          "pos": 3,
+          "gan": "丙",
+          "zhi": "申",
+          "wx": "金",
+          "liuqin": "兄弟",
+          "moving": false,
+          "yang": true,
+          "shi": false,
+          "ying": false,
+          "kong": false,
+          "bian": null,
+          "liushen": "勾陈",
+          "strength_score": -2.0,
+          "factors": [
+            "月建克"
+          ],
+          "action": {
+            "version": "chaoqian-line-action-0.1",
+            "status": "blocked",
+            "label": "当前受制",
+            "reasons": [
+              "休囚又受日月克"
+            ],
+            "wait_for": [],
+            "void": "not_void",
+            "basis": "增删卜易·元神忌神衰旺章／旬空章；条件取舍见 docs/ALGORITHM.md"
+          }
+        },
+        {
+          "pos": 4,
+          "gan": "壬",
+          "zhi": "午",
+          "wx": "火",
+          "liuqin": "官鬼",
+          "moving": false,
+          "yang": true,
+          "shi": false,
+          "ying": false,
+          "kong": false,
+          "bian": null,
+          "liushen": "螣蛇",
+          "strength_score": 3.0,
+          "factors": [
+            "临月建",
+            "日辰生"
+          ],
+          "action": {
+            "version": "chaoqian-line-action-0.1",
+            "status": "available",
+            "label": "当前有力",
+            "reasons": [
+              "月令旺",
+              "得日辰生扶"
+            ],
+            "wait_for": [],
+            "void": "not_void",
+            "basis": "增删卜易·元神忌神衰旺章／旬空章；条件取舍见 docs/ALGORITHM.md"
+          },
+          "source": "ben",
+          "source_rank": 0
+        },
+        {
+          "pos": 5,
+          "gan": "壬",
+          "zhi": "申",
+          "wx": "金",
+          "liuqin": "兄弟",
+          "moving": false,
+          "yang": true,
+          "shi": false,
+          "ying": true,
+          "kong": false,
+          "bian": null,
+          "liushen": "白虎",
+          "strength_score": -2.0,
+          "factors": [
+            "月建克"
+          ],
+          "action": {
+            "version": "chaoqian-line-action-0.1",
+            "status": "blocked",
+            "label": "当前受制",
+            "reasons": [
+              "休囚又受日月克"
+            ],
+            "wait_for": [],
+            "void": "not_void",
+            "basis": "增删卜易·元神忌神衰旺章／旬空章；条件取舍见 docs/ALGORITHM.md"
+          }
+        },
+        {
+          "pos": 6,
+          "gan": "壬",
+          "zhi": "戌",
+          "wx": "土",
+          "liuqin": "父母",
+          "moving": false,
+          "yang": true,
+          "shi": false,
+          "ying": false,
+          "kong": false,
+          "bian": null,
+          "liushen": "玄武",
+          "day_combined": true,
+          "strength_score": 0.0,
+          "factors": [
+            "月建生",
+            "日辰克",
+            "日合"
+          ],
+          "action": {
+            "version": "chaoqian-line-action-0.1",
+            "status": "available",
+            "label": "当前有力",
+            "reasons": [
+              "月令相"
+            ],
+            "wait_for": [],
+            "void": "not_void",
+            "basis": "增删卜易·元神忌神衰旺章／旬空章；条件取舍见 docs/ALGORITHM.md"
+          }
+        }
+      ],
+      "ushen": {
+        "pos": 2,
+        "liuqin": "官鬼",
+        "zhi": "午",
+        "wx": "火",
+        "kong": false,
+        "action": {
+          "version": "chaoqian-line-action-0.1",
+          "status": "uncertain",
+          "label": "作用未定",
+          "reasons": [
+            "月令旺",
+            "得日辰生扶",
+            "动化回头克"
+          ],
+          "wait_for": [],
+          "void": "not_void",
+          "basis": "增删卜易·元神忌神衰旺章／旬空章；条件取舍见 docs/ALGORITHM.md"
+        },
+        "hidden": false,
+        "month_broken": false,
+        "day_combined": false,
+        "day_clashed": false,
+        "moving": true,
+        "bian": {
+          "gan": "辛",
+          "zhi": "亥",
+          "wx": "水",
+          "liuqin": "子孙",
+          "relation": "回头克"
+        },
+        "note": "用神两现，按动静、临日月、近世取用(《卜筮正宗》口径)",
+        "source": "ben",
+        "source_label": "本卦",
+        "source_rank": 0,
+        "selection_status": "ok",
+        "dark_moving": false,
+        "wangshuai": "旺",
+        "availability": null,
+        "availability_reasons": [],
+        "strength_tier": null,
+        "fu_fei": null,
+        "fly": null,
+        "shengfu": null,
+        "fushen_two_appear": false,
+        "candidates": [
+          {
+            "pos": 2,
+            "zhi": "午",
+            "wx": "火",
+            "source": "ben",
+            "moving": true,
+            "kong": false,
+            "strength_score": 1.5,
+            "availability": null
+          },
+          {
+            "pos": 4,
+            "zhi": "午",
+            "wx": "火",
+            "source": "ben",
+            "moving": false,
+            "kong": false,
+            "strength_score": 3.0,
+            "availability": null
+          }
+        ]
+      },
+      "wangshuai": "旺",
+      "day_note": "日辰生",
+      "strength_score": 2.5,
+      "strength_label": "强",
+      "factors": [
+        "临月建",
+        "日辰生",
+        "动爻",
+        "回头克",
+        "午戌半合火·成局即发",
+        "世爻在局为美"
+      ],
+      "hex_relation": "平",
+      "yingqi": [
+        {
+          "date": "2030-05-23",
+          "reasons": [
+            {
+              "how": "值用神",
+              "kind": "favorable",
+              "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合"
+            }
+          ],
+          "kinds": [
+            "favorable"
+          ],
+          "kind": "favorable",
+          "mixed": false,
+          "how": "值用神",
+          "evidence_count": 1,
+          "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合",
+          "stage_id": "stage-1",
+          "month_zhi": "巳",
+          "calendar_time": "2030-05-23T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-05-29",
+          "reasons": [
+            {
+              "how": "动爻逢冲",
+              "kind": "critical",
+              "basis": "卜筮正宗·不空而动者，冲之则散"
+            }
+          ],
+          "kinds": [
+            "critical"
+          ],
+          "kind": "critical",
+          "mixed": false,
+          "how": "动爻逢冲",
+          "evidence_count": 1,
+          "basis": "卜筮正宗·不空而动者，冲之则散",
+          "stage_id": "stage-1",
+          "month_zhi": "巳",
+          "calendar_time": "2030-05-29T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-06-09",
+          "reasons": [
+            {
+              "how": "逢变爻亥",
+              "kind": "favorable",
+              "basis": "增删卜易·发动之爻有应于变爻之日月"
+            }
+          ],
+          "kinds": [
+            "favorable"
+          ],
+          "kind": "favorable",
+          "mixed": false,
+          "how": "逢变爻亥",
+          "evidence_count": 1,
+          "basis": "增删卜易·发动之爻有应于变爻之日月",
+          "stage_id": "stage-2",
+          "month_zhi": "午",
+          "calendar_time": "2030-06-09T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-06-10",
+          "reasons": [
+            {
+              "how": "动爻逢冲",
+              "kind": "critical",
+              "basis": "卜筮正宗·不空而动者，冲之则散"
+            }
+          ],
+          "kinds": [
+            "critical"
+          ],
+          "kind": "critical",
+          "mixed": false,
+          "how": "动爻逢冲",
+          "evidence_count": 1,
+          "basis": "卜筮正宗·不空而动者，冲之则散",
+          "stage_id": "stage-2",
+          "month_zhi": "午",
+          "calendar_time": "2030-06-10T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        }
+      ],
+      "rule_version": "chaoqian-liuyao-0.1",
+      "action_version": "chaoqian-line-action-0.1",
+      "influences": [],
+      "sanhe": {
+        "kind": "半合",
+        "name": "午戌半合火",
+        "status": "成局即发",
+        "branches": [
+          "午",
+          "戌"
+        ],
+        "elem": "火",
+        "missing": null,
+        "ban_type": "帝旺+墓库",
+        "positions": [
+          2,
+          4,
+          6
+        ],
+        "active_positions": [
+          2
+        ],
+        "sources": [
+          {
+            "zhi": "午",
+            "pos": 2,
+            "source": "动爻",
+            "active": true,
+            "kong": false
+          },
+          {
+            "zhi": "午",
+            "pos": 4,
+            "source": "静爻",
+            "active": false,
+            "kong": false
+          },
+          {
+            "zhi": "戌",
+            "pos": 6,
+            "source": "静爻",
+            "active": false,
+            "kong": false
+          }
+        ],
+        "power": {
+          "month_label": "旺",
+          "score": 2.5,
+          "factors": [
+            "月令旺",
+            "日辰生化神"
+          ]
+        },
+        "liuqin_ju": "官鬼",
+        "verdict": "合成官鬼局，事有主司亦有压力",
+        "status_reasons": [],
+        "relation_to_ushen": "局与用神同类",
+        "relation_to_shi": "世爻在局为美",
+        "bonus": 1.0,
+        "yingqi": [],
+        "school_note": "《增删卜易·三合章》口径: 两爻动(明动或暗动)即可成局, 静爻本支、变出之爻、日辰月建皆可补足; 部分现代教材主张静爻/月建/伏爻不入局, 与原文冲突, 本项目从《增删卜易》。半合(二支拱合)须含旺神(中神 子午卯酉)且两支之中至少一爻动(明动或暗动), 两支全静不作局论; 另: 同五行三合三支俱全在场却判「未成(动爻不足)」时, 其子集半合不再成局 —— 这一条是本项目的选择(避免大局判未成、子集反报成局的自相矛盾), 不挂古籍名下。",
+        "all": [
+          {
+            "kind": "半合",
+            "name": "午戌半合火",
+            "status": "成局即发",
+            "branches": [
+              "午",
+              "戌"
+            ],
+            "elem": "火",
+            "missing": null,
+            "ban_type": "帝旺+墓库",
+            "positions": [
+              2,
+              4,
+              6
+            ],
+            "active_positions": [
+              2
+            ],
+            "sources": [
+              {
+                "zhi": "午",
+                "pos": 2,
+                "source": "动爻",
+                "active": true,
+                "kong": false
+              },
+              {
+                "zhi": "午",
+                "pos": 4,
+                "source": "静爻",
+                "active": false,
+                "kong": false
+              },
+              {
+                "zhi": "戌",
+                "pos": 6,
+                "source": "静爻",
+                "active": false,
+                "kong": false
+              }
+            ],
+            "power": {
+              "month_label": "旺",
+              "score": 2.5,
+              "factors": [
+                "月令旺",
+                "日辰生化神"
+              ]
+            },
+            "liuqin_ju": "官鬼",
+            "verdict": "合成官鬼局，事有主司亦有压力",
+            "status_reasons": [],
+            "relation_to_ushen": "局与用神同类",
+            "relation_to_shi": "世爻在局为美",
+            "bonus": 1.0,
+            "yingqi": [],
+            "school_note": "《增删卜易·三合章》口径: 两爻动(明动或暗动)即可成局, 静爻本支、变出之爻、日辰月建皆可补足; 部分现代教材主张静爻/月建/伏爻不入局, 与原文冲突, 本项目从《增删卜易》。半合(二支拱合)须含旺神(中神 子午卯酉)且两支之中至少一爻动(明动或暗动), 两支全静不作局论; 另: 同五行三合三支俱全在场却判「未成(动爻不足)」时, 其子集半合不再成局 —— 这一条是本项目的选择(避免大局判未成、子集反报成局的自相矛盾), 不挂古籍名下。"
+          },
+          {
+            "kind": "半合",
+            "name": "亥卯半合木",
+            "status": "待填实",
+            "branches": [
+              "亥",
+              "卯"
+            ],
+            "elem": "木",
+            "missing": null,
+            "ban_type": "长生+帝旺",
+            "positions": [
+              2
+            ],
+            "active_positions": [
+              2
+            ],
+            "sources": [
+              {
+                "zhi": "亥",
+                "pos": 2,
+                "source": "变爻",
+                "active": true,
+                "kong": false
+              },
+              {
+                "zhi": "卯",
+                "pos": 0,
+                "source": "日辰",
+                "active": false,
+                "kong": false
+              }
+            ],
+            "power": {
+              "month_label": "休",
+              "score": 1.0,
+              "factors": [
+                "月令休",
+                "临日辰"
+              ]
+            },
+            "liuqin_ju": "妻财",
+            "verdict": "合成财局，财旺生官",
+            "status_reasons": [
+              "月破待填实"
+            ],
+            "relation_to_ushen": "局生用神",
+            "relation_to_shi": "局生世爻，始以吉断",
+            "bonus": 0.23,
+            "yingqi": [
+              {
+                "zhi": "亥",
+                "how": "逢亥日填实月破，局始成",
+                "kind": "critical",
+                "cause": "月破待填实",
+                "basis": "增删卜易·三合章「有一值空破者，待填实之日月成之；有一爻入墓者，待冲开之日成之」"
+              }
+            ],
+            "school_note": "《增删卜易·三合章》口径: 两爻动(明动或暗动)即可成局, 静爻本支、变出之爻、日辰月建皆可补足; 部分现代教材主张静爻/月建/伏爻不入局, 与原文冲突, 本项目从《增删卜易》。半合(二支拱合)须含旺神(中神 子午卯酉)且两支之中至少一爻动(明动或暗动), 两支全静不作局论; 另: 同五行三合三支俱全在场却判「未成(动爻不足)」时, 其子集半合不再成局 —— 这一条是本项目的选择(避免大局判未成、子集反报成局的自相矛盾), 不挂古籍名下。"
+          }
+        ]
+      },
+      "display_fushen": [
+        {
+          "pos": 1,
+          "liuqin": "子孙",
+          "zhi": "子",
+          "wx": "水",
+          "gan": "甲",
+          "kong": true,
+          "fly": {
+            "pos": 1,
+            "liuqin": "父母",
+            "zhi": "辰",
+            "wx": "土"
+          },
+          "relation": "飞克伏",
+          "relation_note": "飞来克伏遭克害，最凶"
+        },
+        {
+          "pos": 2,
+          "liuqin": "妻财",
+          "zhi": "寅",
+          "wx": "木",
+          "gan": "甲",
+          "kong": false,
+          "fly": {
+            "pos": 2,
+            "liuqin": "官鬼",
+            "zhi": "午",
+            "wx": "火"
+          },
+          "relation": "伏生飞",
+          "relation_note": "伏去生飞名泄气，不吉"
+        }
+      ],
+      "yingqi_all": [
+        {
+          "date": "2030-05-23",
+          "how": "值用神",
+          "kind": "favorable",
+          "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合"
+        },
+        {
+          "date": "2030-05-24",
+          "how": "合用神",
+          "kind": "favorable",
+          "basis": "通行口诀·动爻逢值逢合"
+        },
+        {
+          "date": "2030-05-28",
+          "how": "逢变爻亥",
+          "kind": "favorable",
+          "basis": "增删卜易·发动之爻有应于变爻之日月"
+        },
+        {
+          "date": "2030-05-29",
+          "how": "动爻逢冲",
+          "kind": "critical",
+          "basis": "卜筮正宗·不空而动者，冲之则散"
+        },
+        {
+          "date": "2030-06-04",
+          "how": "值用神",
+          "kind": "favorable",
+          "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合"
+        },
+        {
+          "date": "2030-06-05",
+          "how": "合用神",
+          "kind": "favorable",
+          "basis": "通行口诀·动爻逢值逢合"
+        },
+        {
+          "date": "2030-06-09",
+          "how": "逢变爻亥",
+          "kind": "favorable",
+          "basis": "增删卜易·发动之爻有应于变爻之日月"
+        },
+        {
+          "date": "2030-06-10",
+          "how": "动爻逢冲",
+          "kind": "critical",
+          "basis": "卜筮正宗·不空而动者，冲之则散"
+        },
+        {
+          "date": "2030-06-16",
+          "how": "值用神",
+          "kind": "favorable",
+          "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合"
+        },
+        {
+          "date": "2030-06-17",
+          "how": "合用神",
+          "kind": "favorable",
+          "basis": "通行口诀·动爻逢值逢合"
+        }
+      ],
+      "yingqi_notes": [],
+      "yingqi_top3": [
+        {
+          "date": "2030-05-23",
+          "how": "值用神",
+          "kind": "favorable",
+          "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合"
+        },
+        {
+          "date": "2030-05-24",
+          "how": "合用神",
+          "kind": "favorable",
+          "basis": "通行口诀·动爻逢值逢合"
+        },
+        {
+          "date": "2030-05-28",
+          "how": "逢变爻亥",
+          "kind": "favorable",
+          "basis": "增删卜易·发动之爻有应于变爻之日月"
+        }
+      ]
+    },
+    "text": {
+      "result": "30天内倾向有利，仍看条件能否落实",
+      "main_factor": "用神官鬼午，传统规则势能为强。用神作用未定（月令旺、得日辰生扶、动化回头克）。三合午戌半合火·成局即发，局与用神同类。",
+      "timing": "已覆盖2030-05-20至2030-06-19，共2个阶段；下面日期是条件观察点，不是保证完成日。",
+      "advice": "先核对这件事目前卡在哪一步；有新进展就记下来，按原完成标准继续跟踪。",
+      "fallback": false,
+      "local_mode": true,
+      "strength": "强",
+      "guard_stripped": [],
+      "condition_note": "用神作用未定（月令旺、得日辰生扶、动化回头克）。"
+    },
+    "rule_version": "chaoqian-liuyao-0.1",
+    "narrative_version": "chaoqian-cast-text-0.1",
+    "forecast_version": "chaoqian-cast-0.1",
+    "event_contract": {
+      "version": "chaoqian-event-0.1",
+      "event_type": "occurrence",
+      "question": "示例项目三十天内能完成吗",
+      "asked_now": "示例项目三十天内能完成吗",
+      "target_event": "示例项目三十天内能完成吗",
+      "criterion": "以正式通知或实际交付为准；口头意向、面谈印象只记进展。",
+      "background": "",
+      "category": "事业",
+      "horizon": 30,
+      "start": "2030-05-20",
+      "deadline": "2030-06-19",
+      "verifiable": true,
+      "missing": [
+        "尚未提供这件事的现实进度；解读不会假定任何未提供的进展（如已报名、已签约、已获批）。"
+      ],
+      "criterion_source": "question",
+      "negative_question": false,
+      "adverse_target": false
+    },
+    "prediction": {
+      "version": "chaoqian-cast-0.1",
+      "direction": "yes",
+      "engine_rule_version": "chaoqian-liuyao-0.1",
+      "rule_tendency": "强",
+      "decision_policy": "rule-conditions",
+      "direction_reason": "rule_tendency_only",
+      "conditions_resolved": true,
+      "target_event": "示例项目三十天内能完成吗",
+      "criterion": "以正式通知或实际交付为准；口头意向、面谈印象只记进展。",
+      "start": "2030-05-20",
+      "deadline": "2030-06-19",
+      "primary_window": {
+        "start": "2030-05-23",
+        "end": "2030-05-23",
+        "role": "observation"
+      },
+      "verifiable": true,
+      "basis": "传统规则势能形成的事前倾向，尚未证明现实预测效果；观察日不等于完成日。",
+      "baseline": {
+        "model_id": "unconditional_0.5",
+        "probability": 0.5,
+        "note": "固定参照，仅用于后台对照；传统势能不转换为成功概率。"
+      }
+    },
+    "timeline": {
+      "version": "chaoqian-timing-0.1",
+      "horizon": 30,
+      "start": "2030-05-20",
+      "deadline": "2030-06-19",
+      "start_at": "2030-05-20T09:00:00+08:00",
+      "calendar_timezone": "UTC+08:00",
+      "includes_today": true,
+      "stages": [
+        {
+          "id": "stage-1",
+          "start": "2030-05-20",
+          "end": "2030-06-05",
+          "start_at": "2030-05-20T09:00:00+08:00",
+          "end_at": "2030-06-05T22:44:30+08:00",
+          "end_exclusive": true,
+          "label": "第1阶段·辛巳月",
+          "month_zhi": "巳",
+          "month_gz": "辛巳",
+          "month_state": "旺",
+          "support": [
+            "未来月令巳火与原用神午火同类，月令态为旺"
+          ],
+          "pressure": [],
+          "balance": "月令有助势条件",
+          "summary": "月令有助势条件；这是未来月令对原用神的条件观察，原卦强弱不变，不代表事情必成或必败。",
+          "next_term": {
+            "name": "芒种",
+            "at": "2030-06-05T22:44:30+08:00"
+          },
+          "candidates": [
+            {
+              "date": "2030-05-23",
+              "reasons": [
+                {
+                  "how": "值用神",
+                  "kind": "favorable",
+                  "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合"
+                }
+              ],
+              "kinds": [
+                "favorable"
+              ],
+              "kind": "favorable",
+              "mixed": false,
+              "how": "值用神",
+              "evidence_count": 1,
+              "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合",
+              "stage_id": "stage-1",
+              "month_zhi": "巳",
+              "calendar_time": "2030-05-23T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察"
+            },
+            {
+              "date": "2030-05-24",
+              "reasons": [
+                {
+                  "how": "合用神",
+                  "kind": "favorable",
+                  "basis": "通行口诀·动爻逢值逢合"
+                }
+              ],
+              "kinds": [
+                "favorable"
+              ],
+              "kind": "favorable",
+              "mixed": false,
+              "how": "合用神",
+              "evidence_count": 1,
+              "basis": "通行口诀·动爻逢值逢合",
+              "stage_id": "stage-1",
+              "month_zhi": "巳",
+              "calendar_time": "2030-05-24T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察"
+            },
+            {
+              "date": "2030-05-28",
+              "reasons": [
+                {
+                  "how": "逢变爻亥",
+                  "kind": "favorable",
+                  "basis": "增删卜易·发动之爻有应于变爻之日月"
+                }
+              ],
+              "kinds": [
+                "favorable"
+              ],
+              "kind": "favorable",
+              "mixed": false,
+              "how": "逢变爻亥",
+              "evidence_count": 1,
+              "basis": "增删卜易·发动之爻有应于变爻之日月",
+              "stage_id": "stage-1",
+              "month_zhi": "巳",
+              "calendar_time": "2030-05-28T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察"
+            },
+            {
+              "date": "2030-05-29",
+              "reasons": [
+                {
+                  "how": "动爻逢冲",
+                  "kind": "critical",
+                  "basis": "卜筮正宗·不空而动者，冲之则散"
+                }
+              ],
+              "kinds": [
+                "critical"
+              ],
+              "kind": "critical",
+              "mixed": false,
+              "how": "动爻逢冲",
+              "evidence_count": 1,
+              "basis": "卜筮正宗·不空而动者，冲之则散",
+              "stage_id": "stage-1",
+              "month_zhi": "巳",
+              "calendar_time": "2030-05-29T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察"
+            },
+            {
+              "date": "2030-06-04",
+              "reasons": [
+                {
+                  "how": "值用神",
+                  "kind": "favorable",
+                  "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合"
+                }
+              ],
+              "kinds": [
+                "favorable"
+              ],
+              "kind": "favorable",
+              "mixed": false,
+              "how": "值用神",
+              "evidence_count": 1,
+              "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合",
+              "stage_id": "stage-1",
+              "month_zhi": "巳",
+              "calendar_time": "2030-06-04T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察"
+            },
+            {
+              "date": "2030-06-05",
+              "reasons": [
+                {
+                  "how": "合用神",
+                  "kind": "favorable",
+                  "basis": "通行口诀·动爻逢值逢合"
+                }
+              ],
+              "kinds": [
+                "favorable"
+              ],
+              "kind": "favorable",
+              "mixed": false,
+              "how": "合用神",
+              "evidence_count": 1,
+              "basis": "通行口诀·动爻逢值逢合",
+              "stage_id": "stage-1",
+              "month_zhi": "巳",
+              "calendar_time": "2030-06-05T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察",
+              "boundary_note": "交节当日，日候选按日间观察时刻归属；月令以阶段所列准确交节时刻切换。"
+            }
+          ],
+          "primary_candidates": [
+            {
+              "date": "2030-05-23",
+              "reasons": [
+                {
+                  "how": "值用神",
+                  "kind": "favorable",
+                  "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合"
+                }
+              ],
+              "kinds": [
+                "favorable"
+              ],
+              "kind": "favorable",
+              "mixed": false,
+              "how": "值用神",
+              "evidence_count": 1,
+              "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合",
+              "stage_id": "stage-1",
+              "month_zhi": "巳",
+              "calendar_time": "2030-05-23T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察"
+            },
+            {
+              "date": "2030-05-29",
+              "reasons": [
+                {
+                  "how": "动爻逢冲",
+                  "kind": "critical",
+                  "basis": "卜筮正宗·不空而动者，冲之则散"
+                }
+              ],
+              "kinds": [
+                "critical"
+              ],
+              "kind": "critical",
+              "mixed": false,
+              "how": "动爻逢冲",
+              "evidence_count": 1,
+              "basis": "卜筮正宗·不空而动者，冲之则散",
+              "stage_id": "stage-1",
+              "month_zhi": "巳",
+              "calendar_time": "2030-05-29T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察"
+            }
+          ]
+        },
+        {
+          "id": "stage-2",
+          "start": "2030-06-05",
+          "end": "2030-06-19",
+          "start_at": "2030-06-05T22:44:30+08:00",
+          "end_at": "2030-06-20T00:00:00+08:00",
+          "end_exclusive": true,
+          "label": "第2阶段·壬午月",
+          "month_zhi": "午",
+          "month_gz": "壬午",
+          "month_state": "旺",
+          "support": [
+            "未来月令午火与原用神午火同类，月令态为旺"
+          ],
+          "pressure": [],
+          "balance": "月令有助势条件",
+          "summary": "月令有助势条件；这是未来月令对原用神的条件观察，原卦强弱不变，不代表事情必成或必败。",
+          "next_term": null,
+          "candidates": [
+            {
+              "date": "2030-06-09",
+              "reasons": [
+                {
+                  "how": "逢变爻亥",
+                  "kind": "favorable",
+                  "basis": "增删卜易·发动之爻有应于变爻之日月"
+                }
+              ],
+              "kinds": [
+                "favorable"
+              ],
+              "kind": "favorable",
+              "mixed": false,
+              "how": "逢变爻亥",
+              "evidence_count": 1,
+              "basis": "增删卜易·发动之爻有应于变爻之日月",
+              "stage_id": "stage-2",
+              "month_zhi": "午",
+              "calendar_time": "2030-06-09T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察"
+            },
+            {
+              "date": "2030-06-10",
+              "reasons": [
+                {
+                  "how": "动爻逢冲",
+                  "kind": "critical",
+                  "basis": "卜筮正宗·不空而动者，冲之则散"
+                }
+              ],
+              "kinds": [
+                "critical"
+              ],
+              "kind": "critical",
+              "mixed": false,
+              "how": "动爻逢冲",
+              "evidence_count": 1,
+              "basis": "卜筮正宗·不空而动者，冲之则散",
+              "stage_id": "stage-2",
+              "month_zhi": "午",
+              "calendar_time": "2030-06-10T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察"
+            },
+            {
+              "date": "2030-06-16",
+              "reasons": [
+                {
+                  "how": "值用神",
+                  "kind": "favorable",
+                  "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合"
+                }
+              ],
+              "kinds": [
+                "favorable"
+              ],
+              "kind": "favorable",
+              "mixed": false,
+              "how": "值用神",
+              "evidence_count": 1,
+              "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合",
+              "stage_id": "stage-2",
+              "month_zhi": "午",
+              "calendar_time": "2030-06-16T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察"
+            },
+            {
+              "date": "2030-06-17",
+              "reasons": [
+                {
+                  "how": "合用神",
+                  "kind": "favorable",
+                  "basis": "通行口诀·动爻逢值逢合"
+                }
+              ],
+              "kinds": [
+                "favorable"
+              ],
+              "kind": "favorable",
+              "mixed": false,
+              "how": "合用神",
+              "evidence_count": 1,
+              "basis": "通行口诀·动爻逢值逢合",
+              "stage_id": "stage-2",
+              "month_zhi": "午",
+              "calendar_time": "2030-06-17T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察"
+            }
+          ],
+          "primary_candidates": [
+            {
+              "date": "2030-06-09",
+              "reasons": [
+                {
+                  "how": "逢变爻亥",
+                  "kind": "favorable",
+                  "basis": "增删卜易·发动之爻有应于变爻之日月"
+                }
+              ],
+              "kinds": [
+                "favorable"
+              ],
+              "kind": "favorable",
+              "mixed": false,
+              "how": "逢变爻亥",
+              "evidence_count": 1,
+              "basis": "增删卜易·发动之爻有应于变爻之日月",
+              "stage_id": "stage-2",
+              "month_zhi": "午",
+              "calendar_time": "2030-06-09T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察"
+            },
+            {
+              "date": "2030-06-10",
+              "reasons": [
+                {
+                  "how": "动爻逢冲",
+                  "kind": "critical",
+                  "basis": "卜筮正宗·不空而动者，冲之则散"
+                }
+              ],
+              "kinds": [
+                "critical"
+              ],
+              "kind": "critical",
+              "mixed": false,
+              "how": "动爻逢冲",
+              "evidence_count": 1,
+              "basis": "卜筮正宗·不空而动者，冲之则散",
+              "stage_id": "stage-2",
+              "month_zhi": "午",
+              "calendar_time": "2030-06-10T12:00:00+08:00",
+              "scope": "原卦日触发；未来月令另作阶段条件观察"
+            }
+          ]
+        }
+      ],
+      "primary_candidates": [
+        {
+          "date": "2030-05-23",
+          "reasons": [
+            {
+              "how": "值用神",
+              "kind": "favorable",
+              "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合"
+            }
+          ],
+          "kinds": [
+            "favorable"
+          ],
+          "kind": "favorable",
+          "mixed": false,
+          "how": "值用神",
+          "evidence_count": 1,
+          "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合",
+          "stage_id": "stage-1",
+          "month_zhi": "巳",
+          "calendar_time": "2030-05-23T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-05-29",
+          "reasons": [
+            {
+              "how": "动爻逢冲",
+              "kind": "critical",
+              "basis": "卜筮正宗·不空而动者，冲之则散"
+            }
+          ],
+          "kinds": [
+            "critical"
+          ],
+          "kind": "critical",
+          "mixed": false,
+          "how": "动爻逢冲",
+          "evidence_count": 1,
+          "basis": "卜筮正宗·不空而动者，冲之则散",
+          "stage_id": "stage-1",
+          "month_zhi": "巳",
+          "calendar_time": "2030-05-29T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-06-09",
+          "reasons": [
+            {
+              "how": "逢变爻亥",
+              "kind": "favorable",
+              "basis": "增删卜易·发动之爻有应于变爻之日月"
+            }
+          ],
+          "kinds": [
+            "favorable"
+          ],
+          "kind": "favorable",
+          "mixed": false,
+          "how": "逢变爻亥",
+          "evidence_count": 1,
+          "basis": "增删卜易·发动之爻有应于变爻之日月",
+          "stage_id": "stage-2",
+          "month_zhi": "午",
+          "calendar_time": "2030-06-09T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-06-10",
+          "reasons": [
+            {
+              "how": "动爻逢冲",
+              "kind": "critical",
+              "basis": "卜筮正宗·不空而动者，冲之则散"
+            }
+          ],
+          "kinds": [
+            "critical"
+          ],
+          "kind": "critical",
+          "mixed": false,
+          "how": "动爻逢冲",
+          "evidence_count": 1,
+          "basis": "卜筮正宗·不空而动者，冲之则散",
+          "stage_id": "stage-2",
+          "month_zhi": "午",
+          "calendar_time": "2030-06-10T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        }
+      ],
+      "all_candidates": [
+        {
+          "date": "2030-05-23",
+          "reasons": [
+            {
+              "how": "值用神",
+              "kind": "favorable",
+              "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合"
+            }
+          ],
+          "kinds": [
+            "favorable"
+          ],
+          "kind": "favorable",
+          "mixed": false,
+          "how": "值用神",
+          "evidence_count": 1,
+          "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合",
+          "stage_id": "stage-1",
+          "month_zhi": "巳",
+          "calendar_time": "2030-05-23T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-05-24",
+          "reasons": [
+            {
+              "how": "合用神",
+              "kind": "favorable",
+              "basis": "通行口诀·动爻逢值逢合"
+            }
+          ],
+          "kinds": [
+            "favorable"
+          ],
+          "kind": "favorable",
+          "mixed": false,
+          "how": "合用神",
+          "evidence_count": 1,
+          "basis": "通行口诀·动爻逢值逢合",
+          "stage_id": "stage-1",
+          "month_zhi": "巳",
+          "calendar_time": "2030-05-24T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-05-28",
+          "reasons": [
+            {
+              "how": "逢变爻亥",
+              "kind": "favorable",
+              "basis": "增删卜易·发动之爻有应于变爻之日月"
+            }
+          ],
+          "kinds": [
+            "favorable"
+          ],
+          "kind": "favorable",
+          "mixed": false,
+          "how": "逢变爻亥",
+          "evidence_count": 1,
+          "basis": "增删卜易·发动之爻有应于变爻之日月",
+          "stage_id": "stage-1",
+          "month_zhi": "巳",
+          "calendar_time": "2030-05-28T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-05-29",
+          "reasons": [
+            {
+              "how": "动爻逢冲",
+              "kind": "critical",
+              "basis": "卜筮正宗·不空而动者，冲之则散"
+            }
+          ],
+          "kinds": [
+            "critical"
+          ],
+          "kind": "critical",
+          "mixed": false,
+          "how": "动爻逢冲",
+          "evidence_count": 1,
+          "basis": "卜筮正宗·不空而动者，冲之则散",
+          "stage_id": "stage-1",
+          "month_zhi": "巳",
+          "calendar_time": "2030-05-29T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-06-04",
+          "reasons": [
+            {
+              "how": "值用神",
+              "kind": "favorable",
+              "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合"
+            }
+          ],
+          "kinds": [
+            "favorable"
+          ],
+          "kind": "favorable",
+          "mixed": false,
+          "how": "值用神",
+          "evidence_count": 1,
+          "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合",
+          "stage_id": "stage-1",
+          "month_zhi": "巳",
+          "calendar_time": "2030-06-04T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-06-05",
+          "reasons": [
+            {
+              "how": "合用神",
+              "kind": "favorable",
+              "basis": "通行口诀·动爻逢值逢合"
+            }
+          ],
+          "kinds": [
+            "favorable"
+          ],
+          "kind": "favorable",
+          "mixed": false,
+          "how": "合用神",
+          "evidence_count": 1,
+          "basis": "通行口诀·动爻逢值逢合",
+          "stage_id": "stage-1",
+          "month_zhi": "巳",
+          "calendar_time": "2030-06-05T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察",
+          "boundary_note": "交节当日，日候选按日间观察时刻归属；月令以阶段所列准确交节时刻切换。"
+        },
+        {
+          "date": "2030-06-09",
+          "reasons": [
+            {
+              "how": "逢变爻亥",
+              "kind": "favorable",
+              "basis": "增删卜易·发动之爻有应于变爻之日月"
+            }
+          ],
+          "kinds": [
+            "favorable"
+          ],
+          "kind": "favorable",
+          "mixed": false,
+          "how": "逢变爻亥",
+          "evidence_count": 1,
+          "basis": "增删卜易·发动之爻有应于变爻之日月",
+          "stage_id": "stage-2",
+          "month_zhi": "午",
+          "calendar_time": "2030-06-09T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-06-10",
+          "reasons": [
+            {
+              "how": "动爻逢冲",
+              "kind": "critical",
+              "basis": "卜筮正宗·不空而动者，冲之则散"
+            }
+          ],
+          "kinds": [
+            "critical"
+          ],
+          "kind": "critical",
+          "mixed": false,
+          "how": "动爻逢冲",
+          "evidence_count": 1,
+          "basis": "卜筮正宗·不空而动者，冲之则散",
+          "stage_id": "stage-2",
+          "month_zhi": "午",
+          "calendar_time": "2030-06-10T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-06-16",
+          "reasons": [
+            {
+              "how": "值用神",
+              "kind": "favorable",
+              "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合"
+            }
+          ],
+          "kinds": [
+            "favorable"
+          ],
+          "kind": "favorable",
+          "mixed": false,
+          "how": "值用神",
+          "evidence_count": 1,
+          "basis": "通行口诀·静爻逢值逢冲，动爻逢值逢合",
+          "stage_id": "stage-2",
+          "month_zhi": "午",
+          "calendar_time": "2030-06-16T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        },
+        {
+          "date": "2030-06-17",
+          "reasons": [
+            {
+              "how": "合用神",
+              "kind": "favorable",
+              "basis": "通行口诀·动爻逢值逢合"
+            }
+          ],
+          "kinds": [
+            "favorable"
+          ],
+          "kind": "favorable",
+          "mixed": false,
+          "how": "合用神",
+          "evidence_count": 1,
+          "basis": "通行口诀·动爻逢值逢合",
+          "stage_id": "stage-2",
+          "month_zhi": "午",
+          "calendar_time": "2030-06-17T12:00:00+08:00",
+          "scope": "原卦日触发；未来月令另作阶段条件观察"
+        }
+      ],
+      "raw_candidate_count": 10,
+      "original_strength": "强",
+      "original_rule_version": "chaoqian-liuyao-0.1",
+      "action_version": "chaoqian-line-action-0.1",
+      "selection_rule": "逐个实际节令阶段保留关键触发与不利提醒，同类按不同触发理由数再按日期选代表；同一理由的多个出处不重复计数，完整候选全部保留。",
+      "limitations": [
+        "阶段是未来月令对固定用神的传统条件观察，不重摇卦，也不改写起卦时强弱。",
+        "日候选保留原卦规则；有动静、条件变化与事情完成是不同判断，均不是发生概率。",
+        "阶段按准确交节时刻划分；日候选按当地12:00归属，当天已过12:00则用起卦时刻。",
+        "这些窗口不能单独用来比较多个选项孰优孰劣、推算累计数值或确认未提供的现实事实。"
+      ]
+    }
+  }
+}

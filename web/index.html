@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>潮签示例卡片</title>
+<style>
+  :root {
+    --bg: #f4f1ea; --card: #fffdf8; --ink: #2b2a27; --muted: #77736a; --line: #e4ded2;
+    --accent: #35546d; --good: #58745d; --low: #a8584f; --neutral: #998f7e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16181b; --card: #1f2226; --ink: #ece8e0; --muted: #a29d93; --line: #33373c;
+            --accent: #8fb3cf; --good: #9cc0a0; --low: #e0988f; --neutral: #b8ae9c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.6 -apple-system, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+  main { max-width: 560px; margin: 0 auto; padding: 24px 16px 48px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 18px 14px; margin-bottom: 14px; }
+  h1 { font-size: 20px; margin: 0 0 2px; letter-spacing: .04em; }
+  h2 { font-size: 13px; color: var(--muted); font-weight: 600; margin: 0 0 10px; letter-spacing: .08em; }
+  .sub { color: var(--muted); font-size: 13px; }
+  .tide { display: inline-block; margin-top: 8px; padding: 2px 10px; border-radius: 999px; border: 1px solid var(--line); font-size: 13px; }
+  .line { margin: 6px 0; }
+  .line b { display: inline-block; width: 3.2em; color: var(--muted); font-weight: 600; }
+  .dom { display: grid; grid-template-columns: 3em 1fr; gap: 4px 10px; align-items: start; margin: 10px 0; }
+  .dom .k { color: var(--muted); font-weight: 600; }
+  .bar { height: 6px; border-radius: 3px; background: var(--line); margin: 3px 0 4px; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--neutral); }
+  .bar i.high { background: var(--good); } .bar i.low { background: var(--low); }
+  .lv { font-size: 12px; color: var(--muted); }
+  .swatches { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .sw { display: flex; align-items: center; gap: 6px; font-size: 13px; }
+  .sw span { width: 22px; height: 22px; border-radius: 6px; border: 1px solid var(--line); display: inline-block; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); }
+  .note { font-size: 12px; color: var(--muted); }
+  .err { color: var(--low); }
+  label.file { font-size: 12px; color: var(--accent); cursor: pointer; }
+  label.file input { display: none; }
+</style>
+</head>
+<body>
+<main>
+  <div id="app"><p class="sub">正在读取 ../examples/daily_example.json …</p></div>
+  <p class="note">
+    <label class="file">换一份 JSON<input type="file" id="file" accept="application/json"></label>
+    · 本页只做静态展示, 不登录、不联网、不保存任何数据。
+  </p>
+</main>
+<script>
+(function () {
+  "use strict";
+  var LABELS = { work: "工作", money: "财务", love: "伴侣", parent: "亲子", body: "身心" };
+  var ORDER = ["work", "money", "love", "parent", "body"];
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function card(title, body) {
+    return '<section class="card">' + (title ? "<h2>" + esc(title) + "</h2>" : "") + body + "</section>";
+  }
+
+  function render(data) {
+    var d = data.daily || data;
+    var a = d.almanac || {}, t = d.text || {}, bz = d.bazi, qm = d.qimen || {}, sig = d.domain_signals || {};
+    var html = "";
+    html += card("", "<h1>" + esc(d.date) + " " + esc(a.week || "") + "</h1>" +
+      '<div class="sub">' + esc(a.lunar || "") + " · " + esc(a.gz_year) + "年 " + esc(a.gz_month) + "月 " + esc(a.gz_day) + "日 · " +
+      esc(a.zhixing || "") + "日</div>" +
+      (bz ? '<span class="tide">潮位 ' + esc(bz.tide) + "/10 · " + esc(bz.tide_label) + "</span>" : ""));
+    html += card("今日一签",
+      '<p class="line"><b>宜</b>' + esc(t.smile) + "</p>" +
+      '<p class="line"><b>缓</b>' + esc(t.think) + "</p>" +
+      (t.yingqi_note ? '<p class="line"><b>应期</b>' + esc(t.yingqi_note) + "</p>" : "") +
+      '<p class="note">' + (t.local_mode ? "规则文案(未调用大模型)" : (t.fallback ? "大模型不可用, 已回落规则文案" : "大模型措辞, 已过确定性护栏")) + "</p>");
+    var doms = "";
+    ORDER.forEach(function (k) {
+      var s = sig[k] || {}, score = Number(s.score || (d.domain_scores || {})[k] || 50);
+      doms += '<div class="k">' + LABELS[k] + "</div><div>" +
+        '<div class="bar"><i class="' + esc(s.level || "") + '" style="width:' + Math.max(5, Math.min(95, score)) + '%"></i></div>' +
+        "<div>" + esc((t.domains || {})[k]) + '</div><div class="lv">' + esc(s.level_label || "") + " · " + score + " · " + esc(s.agreement_label || "") + "</div></div>";
+    });
+    html += card("五个领域", '<div class="dom">' + doms + "</div>" +
+      '<p class="note">' + esc((sig.work || {}).disclaimer || "传统规则线索, 不是事件概率。") + "</p>");
+    var cg = d.color_guide;
+    if (cg) {
+      html += card("今日配色", '<div class="swatches">' +
+        [cg.primary, cg.accent].map(function (c) {
+          return '<div class="sw"><span style="background:' + esc(c.hex) + '"></span>' + esc(c.role) + " · " + esc(c.name) + "</div>";
+        }).join("") + "</div>" + '<p class="note">' + esc(cg.reason) + "</p>");
+    }
+    var hours = '<p class="line"><b>顺时</b>' + esc((qm.best_ranges || []).join("、") || "无突出顺时") + "</p>" +
+      '<p class="line"><b>宜缓</b>' + esc((qm.slow_ranges || []).join("、") || "无") + "</p>" +
+      '<p class="line"><b>风格</b>' + esc(qm.style || "") + "</p>";
+    html += card("奇门时段 · " + esc(qm.ju || ""), hours);
+    var chips = "";
+    (a.yi || []).forEach(function (x) { chips += '<span class="chip">宜 ' + esc(x) + "</span>"; });
+    (a.ji || []).forEach(function (x) { chips += '<span class="chip">忌 ' + esc(x) + "</span>"; });
+    var extra = "";
+    if (d.watch_today) extra += '<p class="line"><b>留意</b>' + esc(d.watch_today.tags.join("·")) + " — " + esc(d.watch_today.tip) + "</p>";
+    if (d.lucky_today) extra += '<p class="line"><b>吉星</b>' + esc(d.lucky_today.tags.join("·")) + " — " + esc(d.lucky_today.tip) + "</p>";
+    var c = d.cast || {};
+    html += card("黄历与卦象", '<div class="chips">' + chips + "</div>" + extra +
+      '<p class="line"><b>卦</b>' + esc(c.ben) + " → " + esc(c.bian) + "(动第" + esc(c.dong) + "爻)</p>" +
+      (c.yaoci ? '<p class="note">' + esc(c.yaoci) + "</p>" : ""));
+    if (data.cast && data.cast.text) {
+      var ct = data.cast.text;
+      html += card("问卦 · " + esc(data.cast.question),
+        '<p class="line"><b>倾向</b>' + esc(ct.result) + "</p>" +
+        '<p class="line"><b>条件</b>' + esc(ct.main_factor) + "</p>" +
+        '<p class="line"><b>时间</b>' + esc(ct.timing) + "</p>" +
+        '<p class="line"><b>建议</b>' + esc(ct.advice) + "</p>");
+    }
+    html += '<p class="note">' + esc((d.evidence || {}).disclaimer || "") + "</p>";
+    document.getElementById("app").innerHTML = html;
+  }
+
+  function fail(msg) {
+    document.getElementById("app").innerHTML = '<p class="err">' + esc(msg) + "</p>" +
+      '<p class="note">请在仓库根目录运行 <code>python -m http.server 8000</code>, 再打开 /web/; 或点下方「换一份 JSON」选择本地文件。</p>';
+  }
+
+  window.renderChaoqian = render;  // 方便嵌入: 传入 make_daily.py 的输出对象即可渲染
+
+  fetch("../examples/daily_example.json").then(function (r) {
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  }).then(render).catch(function (e) { fail("读取示例失败: " + e.message); });
+
+  document.getElementById("file").addEventListener("change", function (ev) {
+    var f = ev.target.files && ev.target.files[0];
+    if (!f) return;
+    var reader = new FileReader();
+    reader.onload = function () {
+      try { render(JSON.parse(reader.result)); } catch (e) { fail("不是合法的 JSON: " + e.message); }
+    };
+    reader.readAsText(f, "utf-8");
+  });
+})();
+</script>
+</body>
+</html>

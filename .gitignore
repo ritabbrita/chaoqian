@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+.env.*
+*.env
+*.db
+*.sqlite*
+*.log
+# 真实出生信息 / 命盘请用这个后缀保存在本地, 不要提交
+*.private.json

@@ -1,0 +1,7 @@
+# 运行依赖(均为 MIT / Apache 等宽松许可)
+lunar-python==1.4.8
+tzdata
+# 可选: 用 Claude 改写签文
+# anthropic
+# 可选: 跑测试
+# pytest
